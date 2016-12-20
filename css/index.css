@@ -3,11 +3,11 @@ html{height: 100%;}
 body{width: 100%;height: 100%;margin:0;}
 ul,p{margin:0;padding: 0;list-style: none;}
 .wrap{width: 100%;height: 100%;}
-.header{height: 4.0625%;background: url(../img/img1.png) no-repeat 0 0;}
+.header{height: 4.0625%;background: url(../img/img1.jpg) no-repeat 0 0;}
 
 .list{height: 76.25%;background: #677b41;-webkit-perspective: 300px;perspective: 300px;}
 .item{position: relative;float: left;width: 25%;height: 100%;-webkit-transform-style: preserve-3d;transform-style: preserve-3d;transition: transform .3s;}
 
 .item p{position: absolute;top: 0;left: 0;width: 100%;height: 100%;}
 .item span{display: block;width: 100%;margin: -1px 0 0 -1px;border: 1px solid #fff;}
-.footer{height:19.4792%;background: url(../img/img1.png) no-repeat 0 bottom;}
+.footer{height:19.4792%;background: url(../img/img1.jpg) no-repeat 0 bottom;}

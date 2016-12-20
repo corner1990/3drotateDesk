@@ -12,7 +12,7 @@
 			var deg = 360/n;
 			var z = (Math.tan( 30*Math.PI/180)*htmlReact.width/8).toFixed(4);
 			function setCss(){
-				var style = document.querySelector('#style');console.log(style)
+				var style = document.querySelector('#style');
 				str = '';
 				str+='.bg{background-size:'+htmlReact.width+'px '+htmlReact.height+'px !important;}';
 				for(var i = 1 ;i < 4; i++){
@@ -33,10 +33,10 @@
 					html+='<li class="item">'
 					for(var j=0;j<3;j++){
 						html+='<p class="bg">'+
-							'<span class="bg" style="height: '+h+'px;background: url(img/img'+(j+1)+'.png) no-repeat 0 bottom; background-position: '+(-i*w)+'px '+(-hdadH-0*h)+'px"></span>'+
-							'<span class="bg" style="height: '+h+'px;background: url(img/img'+(j+1)+'.png) no-repeat 0 bottom; background-position: '+(-i*w)+'px '+(-hdadH-1*h)+'px"></span>'+
-							'<span class="bg" style="height: '+h+'px;background: url(img/img'+(j+1)+'.png) no-repeat 0 bottom; background-position: '+(-i*w)+'px '+(-hdadH-2*h)+'px"></span>'+
-							'<span class="bg" style="height: '+h+'px;background: url(img/img'+(j+1)+'.png) no-repeat 0 bottom; background-position: '+(-i*w)+'px '+(-hdadH-3*h)+'px"></span>'+
+							'<span class="bg" style="height: '+h+'px;background: url(img/img'+(j+1)+'.jpg) no-repeat 0 bottom; background-position: '+(-i*w)+'px '+(-hdadH-0*h)+'px"></span>'+
+							'<span class="bg" style="height: '+h+'px;background: url(img/img'+(j+1)+'.jpg) no-repeat 0 bottom; background-position: '+(-i*w)+'px '+(-hdadH-1*h)+'px"></span>'+
+							'<span class="bg" style="height: '+h+'px;background: url(img/img'+(j+1)+'.jpg) no-repeat 0 bottom; background-position: '+(-i*w)+'px '+(-hdadH-2*h)+'px"></span>'+
+							'<span class="bg" style="height: '+h+'px;background: url(img/img'+(j+1)+'.jpg) no-repeat 0 bottom; background-position: '+(-i*w)+'px '+(-hdadH-3*h)+'px"></span>'+
 						'</p>';
 					}
 					html+='</li>';
